@@ -1,0 +1,62 @@
+body {
+    background: #3b4252;
+    color: #eceff4;
+}
+
+a {
+    color: #88c0d0;
+}
+
+a:visited {
+    color: #b48ead;
+}
+
+a:hover {
+    color: #81a1c1;
+}   
+
+input, button, textarea, select {
+    background-color: #2e3440;
+    color: #e5e9f0;
+    border: 1px solid rgb(76, 86, 106);
+}
+
+.searx-navbar {
+    background-color: #2e3440;
+}
+
+.result-content, .result-source, .result-format {
+    color: #eceff4;
+}
+
+.external-link {
+    color: #a3be8c;
+}
+
+.result-default:hover, .result-code:hover, .result-torrent:hover, .result-videos:hover, .result-map:hover {
+    background-color: #4c566a;
+}
+
+.highlight {
+    background-color: #3b4252;
+    border-bottom: #ebcb8b 1px dotted;
+}
+
+#categories :checked + label {
+    border-bottom: 4px solid #a3be8c;
+}
+
+.search_categories label, #categories label, .search_categories .input-group-addon, #categories .input-group-addon {
+    background-color: #2e3440;
+    border: rgb(76, 86, 106) 1px solid;
+    color: #e5e9f0;
+}
+
+.panel-heading  {
+    background-color: #434c5e;
+    color:#eceff4;
+}
+
+.panel-body {
+    background-color: #2e3440;
+}
