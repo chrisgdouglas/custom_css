@@ -60,3 +60,7 @@ input, button, textarea, select {
 .panel-body {
     background-color: #2e3440;
 }
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th, .table-striped > thead > tr:nth-child(2n+1) > th {
+    background: #3b4252 none;
+}
